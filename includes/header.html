@@ -1,0 +1,62 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajendran Vidurshini - Software Developer & AI Enthusiast Portfolio">
+    <meta name="author" content="Rajendran Vidurshini">
+    <title>${pageTitle != null ? pageTitle : 'Rajendran Vidurshini | Portfolio'}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="${pageContext.request.contextPath}/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/home.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/about.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/skills.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/projects.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/contact.css">
+
+    <!-- Dark Mode - Load early to prevent flash -->
+    <script src="${pageContext.request.contextPath}/js/darkmode.js"></script>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <a href="${pageContext.request.contextPath}/index.jsp" class="logo">
+        Vidurshini<span>.</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="${pageContext.request.contextPath}/index.jsp">Home</a></li>
+        <li><a href="${pageContext.request.contextPath}/about.jsp">About</a></li>
+        <li><a href="${pageContext.request.contextPath}/skills.jsp">Skills</a></li>
+        <li><a href="${pageContext.request.contextPath}/ProjectServlet">Projects</a></li>
+        <li><a href="${pageContext.request.contextPath}/contact.jsp">Contact</a></li>
+        <li>
+            <a href="${pageContext.request.contextPath}/admin/login.jsp" class="btn-admin">
+                <i class="fas fa-user-shield"></i> Admin
+            </a>
+        </li>
+    </ul>
+
+    <div class="theme-toggle" title="Toggle Dark Mode (Ctrl+Shift+D)">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+
+    <div class="hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>

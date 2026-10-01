@@ -1,0 +1,52 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%--
+    Standalone Navbar Component
+    Use this if you want to include navbar separately from header
+--%>
+
+<nav class="navbar">
+    <a href="${pageContext.request.contextPath}/index.jsp" class="logo">
+        Vidurshini<span>.</span>
+    </a>
+
+    <ul class="nav-links">
+        <li>
+            <a href="${pageContext.request.contextPath}/index.jsp">
+                <i class="fas fa-home"></i> Home
+            </a>
+        </li>
+        <li>
+            <a href="${pageContext.request.contextPath}/about.jsp">
+                <i class="fas fa-user"></i> About
+            </a>
+        </li>
+        <li>
+            <a href="${pageContext.request.contextPath}/skills.jsp">
+                <i class="fas fa-code"></i> Skills
+            </a>
+        </li>
+        <li>
+            <a href="${pageContext.request.contextPath}/ProjectServlet">
+                <i class="fas fa-briefcase"></i> Projects
+            </a>
+        </li>
+        <li>
+            <a href="${pageContext.request.contextPath}/contact.jsp">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+        </li>
+        <li>
+            <a href="${pageContext.request.contextPath}/admin/login.jsp" class="btn-admin">
+                <i class="fas fa-user-shield"></i> Admin
+            </a>
+        </li>
+    </ul>
+
+    <div class="theme-toggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+
+    <div class="hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rajendran Vidurshini - Software Developer & AI Enthusiast Portfolio">
+    <meta name="author" content="Rajendran Vidurshini">
+    <title>Home | Rajendran Vidurshini</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/darkmode.js"></script>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+    <a href="index.html" class="logo">Vidurshini<span>.</span></a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="theme-toggle" title="Toggle Dark Mode">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+</nav>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+    <div class="hero-container">
+        <div class="hero-content">
+            <span class="hero-greeting"><i class="fas fa-hand-wave"></i> Hello, Welcome!</span>
+            <h1 class="hero-title">I'm <span class="highlight">Rajendran Vidurshini</span></h1>
+            <h2 class="hero-subtitle"><span class="typed-text"></span><span class="cursor"></span></h2>
+            <p class="hero-description">
+                G.C.E. Advanced Level (Arts Stream) student with a strong passion for
+                software development and Artificial Intelligence. I build responsive
+                web applications using Java, JSP, and modern web technologies.
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn-primary"><i class="fas fa-briefcase"></i> View Projects</a>
+                <a href="contact.html" class="btn-secondary"><i class="fas fa-paper-plane"></i> Contact Me</a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/rajendranvidurshini6-byte" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rajendran-vidurshini-7b3898364" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:vidurshinividu601@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="avatar-wrapper">
+                <img src="images/profile.jpeg" alt="Rajendran Vidurshini" class="avatar-img"
+                     onerror="this.src='https://ui-avatars.com/api/?name=Vidurshini&size=400&background=6c63ff&color=fff&bold=true'">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STATS SECTION ===== -->
+<section class="stats">
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+        <div class="stat-number" data-target="10">0</div>
+        <div class="stat-label">Projects Completed</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-code"></i></div>
+        <div class="stat-number" data-target="8">0</div>
+        <div class="stat-label">Technologies</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+        <div class="stat-number" data-target="5">0</div>
+        <div class="stat-label">Certifications</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-icon"><i class="fas fa-smile"></i></div>
+        <div class="stat-number" data-target="100">0</div>
+        <div class="stat-label">% Dedication</div>
+    </div>
+</section>
+
+<!-- ===== SKILLS PREVIEW ===== -->
+<section class="skills-preview">
+    <h2 class="section-title">My <span>Expertise</span></h2>
+    <p class="section-subtitle">Technologies and tools I work with</p>
+    <div class="skills-preview-grid">
+        <div class="skill-preview-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Programming</h3>
+            <p>Java, JavaScript, C#, SQL - building robust backend and frontend solutions</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-globe"></i>
+            <h3>Web Development</h3>
+            <p>HTML5, CSS3, JSP, Servlets, WordPress - creating dynamic web applications</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-database"></i>
+            <h3>Databases</h3>
+            <p>MySQL, PostgreSQL, pgAdmin - designing and managing relational databases</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <p>Figma, wireframing, prototyping - designing user-friendly interfaces</p>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 3rem;">
+        <a href="skills.html" class="btn-primary"><i class="fas fa-arrow-right"></i> View All Skills</a>
+    </div>
+</section>
+
+<!-- ===== FEATURED PROJECTS ===== -->
+<section style="background: var(--bg-alt);">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    <p class="section-subtitle">Some of my recent work</p>
+    <div class="skills-preview-grid">
+        <div class="skill-preview-card">
+            <i class="fas fa-robot"></i>
+            <h3>AI Career Guidance System</h3>
+            <p>AI-powered web app helping students identify suitable career paths</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-cloud-sun"></i>
+            <h3>Weather Forecast System</h3>
+            <p>Real-time weather application with API integration</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-boxes"></i>
+            <h3>SmartInv Inventory System</h3>
+            <p>Web-based inventory management for products and stock</p>
+        </div>
+        <div class="skill-preview-card">
+            <i class="fas fa-book"></i>
+            <h3>Learning Management Platform</h3>
+            <p>Notes sharing and learning platform for students</p>
+        </div>
+    </div>
+    <div style="text-align: center; margin-top: 3rem;">
+        <a href="projects.html" class="btn-primary"><i class="fas fa-arrow-right"></i> View All Projects</a>
+    </div>
+</section>
+
+<!-- ===== CTA SECTION ===== -->
+<section class="cta-section">
+    <h2>Let's Work Together</h2>
+    <p>Have a project in mind? I'd love to hear about it!</p>
+    <a href="contact.html" class="btn-primary"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">Vidurshini<span>.</span></div>
+        <p style="color: var(--text-light); max-width: 500px; margin: 0 auto;">
+            Aspiring Software Developer & AI Enthusiast passionate about building
+            innovative web applications and solving real-world problems.
+        </p>
+        <div class="footer-social">
+            <a href="https://github.com/rajendranvidurshini6-byte" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rajendran-vidurshini-7b3898364" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:vidurshinividu601@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://whatsapp.com/dl/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="footer-text">&copy; 2026 Rajendran Vidurshini. Made with <i class="fas fa-heart"></i></p>
+    </div>
+</footer>
+
+<button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+<script src="js/script.js"></script>
+<script src="js/animation.js"></script>
+</body>
+</html>
